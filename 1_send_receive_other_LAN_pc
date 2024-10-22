@@ -22,6 +22,7 @@ nc <private_ip_of_server> 1234
 
 Some Important Points:
 
+0.  Ping the <private_ip> of other PC to check, if the connection/communication is there or not.
 1.  you only need to ask the client to run the <client_command>.
 2.  to get the list of free ports use the command:              netstat -tuln 
     to check if port is available; if not kill the process:     lsof -i :<port_num>
