@@ -1,0 +1,8 @@
+
+===================================================================================================
+
+-- get private-ip of the router                                                               // it is shown as default gateway in ipconfig/ifconfig output
+-- simply go to address bar of browser and type the ip address or https://<ip_address>
+-- EXPLORE: you can setup your own DNS server and eavsdrop on other people activity, etc. 
+
+===================================================================================================
