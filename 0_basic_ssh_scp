@@ -9,3 +9,10 @@ ssh <private/public_ip>
 scp <file_name> <destination_private/public_ip>:/home/dishant/
 
 =======================================================================================
+
+
+
+Important Points:
+
+1. By default ssh/scp uses port 22. I tried with default and with open port 3306 of my mac, but connection got refused in LAN.
+   Although ping and msg transfer using port 3306 is working just fine!
