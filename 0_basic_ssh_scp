@@ -5,6 +5,7 @@ ssh dishant@sri.cse.iitd.ac.in
 scp dishant@sri.cse.iitd.ac.in:/home/phd/dishant/<file_name> .
 scp <file_name> dishant@sri.cse.iitd.ac.in:/home/phd/dishantg/
 
+ssh <private/public_ip>
 scp <file_name> <destination_private/public_ip>:/home/dishant/
 
 =======================================================================================
