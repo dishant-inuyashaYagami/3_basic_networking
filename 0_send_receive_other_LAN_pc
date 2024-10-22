@@ -1,0 +1,34 @@
+
+===================== SERVER LISTENING ========================
+
+echo "Hi from Dishant! Type a message: " msg
+cat msg.txt - | nc -l -p 1234
+rm msg.txt
+
+===============================================================
+
+
+
+===================== CLIENT SENDING ==========================
+
+nc <private_ip_of_server> 1234
+
+===============================================================
+
+
+
+
+
+
+Some Important Points:
+
+1.  you only need to ask the client to run the <client_command>.
+2.  to get the list of free ports use the command:              netstat -tuln 
+    to check if port is available; if not kill the process:     lsof -i :<port_num>
+3.  to get private_ip_address, run command:                     ipconfig/ifconfig
+4.  nc: netcat, -l: listening, -p: port_number.
+5.  pipe "|" operator, simply takes the output of LHS and give it as an input to RHS.
+6.  "-" operator does not allow "cat" to close the output stream; without it server won't be able to send message to client; however, the other way is still possible.
+7.  This server/client communication works on your local home Airtel/Jio as well; I tried to communicate from Windows to my MAC; their commands were different.
+
+
