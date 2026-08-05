@@ -1,0 +1,15 @@
+___________________________________________________
+Terminal Command in MAC 
+
+private-ip:      ipconfig getifaddr en0
+public-ip:       curl -s ifconfig.me  
+___________________________________________________
+
+
+
+___________________________________________________
+Terminal Command in Linux 
+
+private-ip:      hostname -I
+public-ip:       curl -s ifconfig.me  
+___________________________________________________
