@@ -1,5 +1,5 @@
 
-=======================================================================================
+==============================================================================================================================
 
 ssh dishant@sri.cse.iitd.ac.in
 ssh dishantgoyal@<private_ip>     // after enabling remote login on MAC!  // ssh on your local wifi network or even mobile hotspot
@@ -11,7 +11,8 @@ wget <internal_download_link_iitd>
 ssh <private/public_ip>
 scp <file_name> <destination_private/public_ip>:/home/dishant/
 
-=======================================================================================
+Example in MAC:        System-Settings  ->  General  ->  Sharing   ->   Remote-Login   ->   ssh dishantg@172.27.142.132
+==============================================================================================================================
 
 
 
