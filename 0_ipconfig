@@ -16,7 +16,7 @@ ___________________________________________________
 ___________________________________________________
 Terminal Command in Linux 
 
-private-ip:      ifconfig | grep in
+private-ip:      ifconfig | grep inet
 public-ip:       curl -s ifconfig.me  
 gateway-ip:      route -n
 ___________________________________________________
