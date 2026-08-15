@@ -3,6 +3,7 @@ Terminal Command in MAC
 
 private-ip:      ipconfig getifaddr en0
 public-ip:       curl -s ifconfig.me  
+gateway-ip:      route -n get default
 ___________________________________________________
 
 
@@ -12,4 +13,5 @@ Terminal Command in Linux
 
 private-ip:      hostname -I
 public-ip:       curl -s ifconfig.me  
+gateway-ip:      ip r
 ___________________________________________________
