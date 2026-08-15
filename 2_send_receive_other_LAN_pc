@@ -1,8 +1,10 @@
 
 ===================== SERVER LISTENING ========================
 
-echo "Hi from Dishant! Type a message: " msg
-cat msg.txt - | nc -l -p 1234
+echo "Hi from Dishant! Type a message: " > msg.txt
+cat msg.txt - | nc -l -p 1234          (in linux)
+ or
+cat msg.txt - | nc -l 1234             (in MAC)
 rm msg.txt
 
 ===============================================================
