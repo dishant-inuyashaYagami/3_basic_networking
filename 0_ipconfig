@@ -8,6 +8,7 @@ private-ip:      ifconfig | grep inet
                  (utun: user-tunnel (VPN))
 public-ip:       curl -s ifconfig.me  
 gateway-ip:      route -n get default
+                 (n: means numeric)
 ___________________________________________________
 
 
