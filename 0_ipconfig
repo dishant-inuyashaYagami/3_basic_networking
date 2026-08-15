@@ -19,4 +19,5 @@ Terminal Command in Linux
 private-ip:      ifconfig | grep inet
 public-ip:       curl -s ifconfig.me  
 gateway-ip:      route -n
+                 (the first line is the default network interface gateway)
 ___________________________________________________
