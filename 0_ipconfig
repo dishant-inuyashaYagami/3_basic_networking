@@ -1,7 +1,11 @@
 ___________________________________________________
 Terminal Command in MAC 
 
-private-ip:      ipconfig getifaddr en0
+private-ip:      ifconfig | grep inet
+                 (this shows all the network interfaces; 'if' means 'i f' that is interface, and config means configuration)
+                 (it also shows the subnet mask id)
+                 (en:   ethernet interface (wifi or cable))
+                 (utun: user-tunnel (VPN))
 public-ip:       curl -s ifconfig.me  
 gateway-ip:      route -n get default
 ___________________________________________________
@@ -11,7 +15,7 @@ ___________________________________________________
 ___________________________________________________
 Terminal Command in Linux 
 
-private-ip:      hostname -I
+private-ip:      ifconfig | grep in
 public-ip:       curl -s ifconfig.me  
-gateway-ip:      ip r
+gateway-ip:      route -n
 ___________________________________________________
