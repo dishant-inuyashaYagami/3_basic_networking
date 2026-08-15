@@ -1,7 +1,7 @@
 ___________________________________________________
 Terminal Command in MAC 
 
-private-ip:      ifconfig | grep inet
+private-ip:      ifconfig | grep 'inet '
                  (this shows all the network interfaces; 'if' means 'i f' that is interface, and config means configuration)
                  (it also shows the subnet mask id)
                  (en:   ethernet interface (wifi or cable))
@@ -16,7 +16,7 @@ ___________________________________________________
 ___________________________________________________
 Terminal Command in Linux 
 
-private-ip:      ifconfig | grep inet
+private-ip:      ifconfig | grep 'inet '
 public-ip:       curl -s ifconfig.me  
 gateway-ip:      route -n
                  (the first line is the default network interface gateway)
