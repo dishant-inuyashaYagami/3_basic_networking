@@ -6,7 +6,8 @@ private-ip:      ifconfig | grep 'inet '
                  (it also shows the subnet mask id)
                  (en:   ethernet interface (wifi or cable))
                  (utun: user-tunnel (VPN))
-public-ip:       curl -s ifconfig.me  
+public-ip:       curl ifconfig.me  
+                 (curl is an https request command that prints whatever the website (ifconfig.me or www.google.com) returns)
 gateway-ip:      route -n get default
                  (n: means numeric)
 ___________________________________________________
@@ -17,7 +18,7 @@ ___________________________________________________
 Terminal Command in Linux 
 
 private-ip:      ifconfig | grep 'inet '
-public-ip:       curl -s ifconfig.me  
+public-ip:       curl ifconfig.me  
 gateway-ip:      route -n
                  (the first line is the default network interface gateway)
 ___________________________________________________
